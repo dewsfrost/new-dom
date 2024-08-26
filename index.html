@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+    <title>Dom ination</title>
+    <link rel="stylesheet" a href="style.css">
+    <style>
+        #dewangga {
+            color: black;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="judul">Selamat Datang!</h1>
+    <p id="dewangga">makan pizza sambil minum teh thai</p>
+    <button id="ubahTeks">Ganti kata-kata</button>
+
+    <script>
+        const tombol = document.getElementById('ubahTeks');
+        tombol.addEventListener('click', function() {
+            const paragraf = document.getElementById('dewangga');
+            paragraf.textContent = 'yang paling the best';
+        });
+    </script>
+</body>
+</html>

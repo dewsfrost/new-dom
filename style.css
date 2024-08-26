@@ -1,0 +1,22 @@
+body{
+    padding: 25px;
+    background-color: #17c1f5;
+  }
+  .title {
+      color: #5C6AC4;
+  }
+
+  h1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  p{
+    display: flex;
+    justify-content: center;
+  }
+
+  button{
+    margin-left: 550px;
+    border-color: rgb(32, 10, 79);
+  }
